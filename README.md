@@ -4,7 +4,7 @@ With this library you can use power of AES to encrypt anything from simple text 
 ##Usage
 Here we encrypt and decrypt a simple text include a RAR archive.
 
-java---
+```java
 var aes = new AES(AES.generateKey(AES.AES_KEY_256), AES.generateIv());
 var filePath = "file.rar";
 
